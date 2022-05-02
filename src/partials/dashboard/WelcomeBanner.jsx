@@ -48,8 +48,8 @@ function WelcomeBanner() {
 
       {/* Content */}
       <div className="relative">
-        <h1 className="text-2xl md:text-3xl text-slate-800 font-bold mb-1">Good afternoon, Acme Inc. 👋</h1>
-        <p>Here is what’s happening with your projects today:</p>
+        <h1 className="text-2xl md:text-3xl text-slate-800 font-bold mb-1">Bem vindo ao Painel PNAN. 👋</h1>
+        <p>Confira aqui os dados sobre aspectos nutricionais no estado de Goiás:</p>
       </div>
 
     </div>

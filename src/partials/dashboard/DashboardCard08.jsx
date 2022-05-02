@@ -21,7 +21,7 @@ function DashboardCard08() {
     datasets: [
       // Indigo line
       {
-        label: 'Current',
+        label: 'Atual',
         data: [
           73, 64, 73, 69, 104, 104, 164,
           164, 120, 120, 120, 148, 142, 104,
@@ -38,7 +38,7 @@ function DashboardCard08() {
       },
       // Blue line
       {
-        label: 'Previous',
+        label: 'Anterior',
         data: [
           184, 86, 42, 378, 42, 243, 38,
           120, 0, 0, 42, 0, 84, 0,
@@ -76,7 +76,7 @@ function DashboardCard08() {
   return (
     <div className="flex flex-col col-span-full sm:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100 flex items-center">
-        <h2 className="font-semibold text-slate-800">Sales Over Time (all stores)</h2>
+        <h2 className="font-semibold text-slate-800">Atendimentos ao longo do tempo</h2>
       </header>
       {/* Chart built with Chart.js 3 */}
       {/* Change the height attribute to adjust the chart height */}

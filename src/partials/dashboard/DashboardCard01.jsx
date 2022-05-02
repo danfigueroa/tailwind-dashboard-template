@@ -25,7 +25,7 @@ function DashboardCard01() {
       // Indigo line
       {
         data: [
-          732, 610, 610, 504, 504, 504, 349,
+          132, 610, 610, 504, 504, 504, 349,
           349, 504, 342, 504, 610, 391, 192,
           154, 273, 191, 191, 126, 263, 349,
           252, 423, 622, 470, 532,
@@ -78,11 +78,11 @@ function DashboardCard01() {
             </li>
           </EditMenu>
         </header>
-        <h2 className="text-lg font-semibold text-slate-800 mb-2">Acme Plus</h2>
-        <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Sales</div>
+        <h2 className="text-lg font-semibold text-slate-800 mb-2">Indice de Massa Corporal</h2>
+        <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Em kg</div>
         <div className="flex items-start">
-          <div className="text-3xl font-bold text-slate-800 mr-2">$24,780</div>
-          <div className="text-sm font-semibold text-white px-1.5 bg-green-500 rounded-full">+49%</div>
+          <div className="text-3xl font-bold text-slate-800 mr-2">20,00</div>
+          <div className="text-sm font-semibold text-white px-1.5 bg-green-500 rounded-full">+19%</div>
         </div>
       </div>
       {/* Chart built with Chart.js 3 */}

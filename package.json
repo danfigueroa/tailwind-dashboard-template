@@ -1,6 +1,6 @@
 {
-  "name": "mosaic-light-react",
-  "version": "0.1.0",
+  "name": "pnan-dashboard",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -14,47 +14,47 @@ function DashboardCard10() {
       image: Image01,
       name: 'Alex Shatov',
       email: 'alexshatov@gmail.com',
-      location: '🇺🇸',
-      spent: '$2,890.66',
+      location: 'Cais 1',
+      spent: '2308643',
     },
     {
       id: '1',
       image: Image02,
       name: 'Philip Harbach',
       email: 'philip.h@gmail.com',
-      location: '🇩🇪',
-      spent: '$2,767.04',
+      location: 'Cais 2',
+      spent: '2308643',
     },
     {
       id: '2',
       image: Image03,
       name: 'Mirko Fisuk',
       email: 'mirkofisuk@gmail.com',
-      location: '🇫🇷',
-      spent: '$2,996.00',
+      location: 'Cais 3',
+      spent: '2308643',
     },
     {
       id: '3',
       image: Image04,
       name: 'Olga Semklo',
       email: 'olga.s@cool.design',
-      location: '🇮🇹',
-      spent: '$1,220.66',
+      location: 'Cais 4',
+      spent: '2308643',
     },
     {
       id: '4',
       image: Image05,
       name: 'Burak Long',
       email: 'longburak@gmail.com',
-      location: '🇬🇧',
-      spent: '$1,890.66',
+      location: 'Cais 5',
+      spent: '2308643',
     },
   ];
 
   return (
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Customers</h2>
+        <h2 className="font-semibold text-slate-800">Responsaveis</h2>
       </header>
       <div className="p-3">
 
@@ -65,16 +65,16 @@ function DashboardCard10() {
             <thead className="text-xs font-semibold uppercase text-slate-400 bg-slate-50">
               <tr>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-left">Name</div>
+                  <div className="font-semibold text-left">Nome</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
                   <div className="font-semibold text-left">Email</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-left">Spent</div>
+                  <div className="font-semibold text-left">Atendimentos</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-center">Country</div>
+                  <div className="font-semibold text-center">Unidade</div>
                 </th>
               </tr>
             </thead>
@@ -99,7 +99,7 @@ function DashboardCard10() {
                         <div className="text-left font-medium text-green-500">{customer.spent}</div>
                       </td>
                       <td className="p-2 whitespace-nowrap">
-                        <div className="text-lg text-center">{customer.location}</div>
+                        <div className="text-center">{customer.location}</div>
                       </td>
                     </tr>
                   )
